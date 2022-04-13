@@ -1,0 +1,52 @@
+/* * {
+  border:rgb(241, 45, 10) 3px solid;
+} */
+.logo {
+  display: flex;
+}
+#imglogo {
+  width: 80px;
+}
+#logotop {
+  display: flex;
+  justify-content: space-between;
+}
+#socialmedia {
+  border: 3px solid green;
+}
+.hr {
+  width: 100%;
+  background-image: url("img/hr-img.png");
+  background-repeat: repeat-x;
+}
+#printicon {
+  color: red;
+}
+#pizzatitle{
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+#recipeimage {
+  width: 100%;
+  background-image: url();
+}
+/* .container {
+  display: flex;
+  justify-content: space-evenly;
+} */
+.leftlist {
+  position:absolute;
+  top: 100px;
+  left: 200px;
+  transform: translate(-50%, -50%);
+}
+.rightlist {
+  position:absolute;
+  top: 100px;
+  right: 50px;
+  transform: translate(-50%, -50%);
+}
